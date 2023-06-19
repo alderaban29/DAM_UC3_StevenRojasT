@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idtxtr4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D8E8"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="405dp"
+        android:layout_height="176dp"
+        android:background="#3b5998"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/idbtnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1877f2"
+        android:text="@string/btnlogin2"
+        app:layout_constraintStart_toStartOf="@+id/idtxtcontrasenia"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcontrasenia" />
+
+    <TextView
+        android:id="@+id/idtxtcontraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/txtcontraseña"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/idtxtcorreo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idtxtcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/txtcorreo"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idtxtcontrasenia"
+        android:layout_width="112dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/idtxtcontraseña"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcontraseña" />
+
+    <CheckBox
+        android:id="@+id/idcheckbox"
+        android:layout_width="139dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txtnocerrarusuario"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/idtxtcorreologin"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcorreologin" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/txtolvidarcontraseña"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/idcheckbox"
+        app:layout_constraintTop_toBottomOf="@+id/idcheckbox" />
+
+    <TextView
+        android:id="@+id/idtxtregistrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txtregistrate2"
+        android:textColor="#3C5898"
+        android:textSize="32sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/idtxtcomment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/txtcoment1"
+        android:textColor="#3C5898"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/idtxtregistrate"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtregistrate" />
+
+    <EditText
+        android:id="@+id/idtxtr1"
+        android:layout_width="204dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcomment2" />
+
+    <EditText
+        android:id="@+id/idtxtr2"
+        android:layout_width="206dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="23dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_people_alt_24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/idtxtr1"
+        app:layout_constraintStart_toStartOf="@+id/idtxtr1"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtr1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/txtnombre"
+        android:textColor="#3C5898"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/idtxtcomment2"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcomment2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtapellidos2"
+        android:textColor="#3C5898"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="90dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/txtcorreodato"
+        android:textColor="#3C5898"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/idtxtcontra"
+        android:layout_width="82dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txtcontraseñanueva"
+        android:textColor="#3C5898"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="209dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/idtxtr3"
+        app:layout_constraintStart_toStartOf="@+id/idtxtr3"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtr3" />
+
+    <TextView
+        android:id="@+id/idtxtsexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtsexo"
+        android:textColor="#3C5898"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/idtxtcontra"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcontra" />
+
+    <EditText
+        android:id="@+id/idtxtr3"
+        android:layout_width="206dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/idtxtr2"
+        app:layout_constraintStart_toStartOf="@+id/idtxtr2"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtr2" />
+
+    <Spinner
+        android:id="@+id/idspinnersexo"
+        android:layout_width="167dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <TextView
+        android:id="@+id/idtxtfecha"
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/txtfecha"
+        android:textColor="#3C5898"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/idtxtsexo"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtsexo" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="204dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_date_range_24"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <TextView
+        android:id="@+id/idtxtcomment3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtinfo"
+        android:textColor="#3C5898"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDate"
+        app:layout_constraintStart_toStartOf="@+id/idtxtfecha"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <Button
+        android:id="@+id/idbtnregistrate"
+        android:layout_width="165dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#42b72a"
+        android:drawableLeft="@drawable/baseline_keyboard_double_arrow_right_24"
+        android:text="@string/btnregistrar"
+        app:layout_constraintStart_toStartOf="@+id/idtxtcomment3"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcomment3" />
+
+    <EditText
+        android:id="@+id/idtxtcorreologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/idtxtcorreo"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcorreo" />
+
+    <TextView
+        android:id="@+id/idtxtcrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/txtcrearpagina"
+        android:textColor="#3C5898"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtcomment3" />
+
+    <TextView
+        android:id="@+id/idtxtempresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/txtcrear2"
+        app:layout_constraintStart_toEndOf="@+id/idtxtcrear"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

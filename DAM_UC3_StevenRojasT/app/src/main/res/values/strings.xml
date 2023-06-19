@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DAM_UC3_StevenRojasT</string>
+    <string name="txtcorreo">Correo Electronico</string>
+    <string name="txtcontraseña">Contraseña</string>
+    <string name="btnlogin">Log In</string>
+    <string name="txtnocerrarusuario">No cerrar sesion</string>
+    <string name="txtolvidarcontraseña">¿Has olvidado tu contraseña?</string>
+    <string name="btnlogin2">Login</string>
+    <string name="txtregistrate">Registrate</string>
+    <string name="txtregistrate2">Regístrate</string>
+    <string name="txtcoment1">Es gratis (y lo seguirá siendo).</string>
+    <string name="txtnombre">Nombre:</string>
+    <string name="txtapellidos">Apellidos</string>
+    <string name="txtapellidos2">Apellidos:</string>
+    <string name="txtcorreodato">Tu dirección de correo electronico:</string>
+    <string name="txtcontraseñanueva">Contraseña nueva:</string>
+    <string name="txtsexo">Sexo:</string>
+    <string name="txtfecha">Fecha de nacimiento:</string>
+    <string name="txtinfo">¿Por qué tengo que dar mi información?</string>
+    <string name="btnregistrar">Registrate</string>
+    <string name="txtcrearpagina">Crean una pagina</string>
+    <string name="txtcrear2">para un famoso,grupo de música o empresa.</string>
+
+</resources>
